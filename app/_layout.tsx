@@ -8,7 +8,6 @@ import 'react-native-reanimated';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { View, Text, StyleSheet, Dimensions, Image } from 'react-native';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
-// Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
 
 const SCREEN_HEIGHT = Dimensions.get('screen').height;
